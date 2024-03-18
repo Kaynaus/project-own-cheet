@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1.0"
+   />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style/CSS/style.css">
+   <title>First project solo</title>
+</head>
+<body>
+   <header>
+      <nav>
+         <div id="Home">
+            <a href="" active> Home</a>
+         </div>
+         <div>
+            <form action="">
+               <input type="text" placeholder="Search">
+               <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+         </div>
+      </nav>
+   </header>
+   
+   <main>
+      <table>
+         <!-- <thead>
+            <tr>
+               <th scope="col">HTML</th>
+               <th scope="col">CSS</th>
+            </tr>
+         </thead> -->
+         <tbody>
+            
+            
+            <tr>
+               
+               <td>
+                  <p id="title">HTML : <a href="#mediadisplay"> media display</a></p>
+               </td>
+               
+               
+               
+               <td>
+                  <div class="subject">
+                     <h3>media display</h3>
+                     <ul>
+                        <li>vidéo</li>
+                        <li>music</li>
+                        <li>image</li>
+                     </ul>
+                  </div>
+                  <div id="video">
+                     <h4>video</h4>
+                     <p> you can display video by the use of the video element with :</p>
+                     <ul>
+                        <li>
+                           <p>controls : to give the user the controls on the video</p>
+                           <details>
+                              <p class="exemple"><summary>exemple :</summary> <br> <video src="style/video/sunrise_-_83880 (360p).mp4" controls> an error as occured sorry we are on it</video> </p>
+                           </details>
+                        </li>
+                        <li>
+                           <p>loop : allow to loop the video when it's finish</p>
+                           <details>
+                              <p class="exemple"><summary>exemple :</summary> <br> <video src="style/video/clouds_-_111179 (360p).mp4"  controls loop></video> </p>
+                           </details>
+                        </li>
+                        <li>
+                           <p>muted : allow the sound of the video to be muted when the video is launch</p>
+                           <!-- don't work local need a webdomain
+                              <p class="exemple">exemple : <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/A9RMr9KuVZo?si=J2X38jbkPN9l9J6M" title="YouTube video player"alt="don't work on local" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </p> -->
+                              <details>
+                                 <p class="exemple"><summary>exemple :</summary> <br> <video src="style/video/sunrise_-_83880 (360p).mp4" controls muted> an error as occured sorry we are on it</video> </p>
+                              </details>
+                              
+                           </li>
+                        </ul>
+                        
+                     </div>
+                     <div id="music">
+                        <h4>music</h4>
+                        <p>like video you use the element audio but we have to use source with the link to the display and define the type</p>
+                        <details>
+                           <p class="exemple"><summary>exemple :</summary> <br> <audio src="style/audio/better-day-186374.mp3" controls></audio> </p>
+                        </details>
+                     </div>
+                     
+                     <div id="image">
+                        <h4>image</h4>
+                        <p>fot the display of img you can use the img element :
+                           <ul>
+                              <li>src to link the path to the file </li>
+                              <li>alt to describe the img ! important for accessibility</li>
+                           </ul>
+                        </p>
+                        <details>
+                           <p class="exemple"><summary>exemple :</summary> <br> <img src="style/IMG/gosling-7938445_640.jpg" alt="a little duck in water mouth open"> </p>
+                        </details>
+                     </div>
+                  </div>
+               </td>
+               
+            </tr>
+            
+            
+         </tbody>
+      </table>
+      
+      
+   </main>
+   <footer>
+      
+      <h6>
+         Copyright (c) 2022 {{Romain.MEJEAN}}
+         All rights reserved.
+      </h6>
+      
+   </footer>
+</body>
+</html>
